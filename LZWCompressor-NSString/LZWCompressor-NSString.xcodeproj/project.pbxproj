@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220A71862446565A00A5E659 /* LZWCompressor_NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A71842446565A00A5E659 /* LZWCompressor_NSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220A718D244656A500A5E659 /* LZWEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A718C244656A500A5E659 /* LZWEncoder.h */; };
+		220A718F2446570500A5E659 /* LZWEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A718E2446570500A5E659 /* LZWEncoder.m */; };
+		220A71912446571700A5E659 /* LZWDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A71902446571700A5E659 /* LZWDecoder.h */; };
+		220A71932446572100A5E659 /* LZWDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A71922446572100A5E659 /* LZWDecoder.m */; };
+		220A71952446574B00A5E659 /* LZWTrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A71942446574B00A5E659 /* LZWTrie.h */; };
+		220A71972446575200A5E659 /* LZWTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A71962446575200A5E659 /* LZWTrie.m */; };
+		220A71992446576700A5E659 /* LZWParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A71982446576700A5E659 /* LZWParser.h */; };
+		220A719B2446577D00A5E659 /* LZWParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A719A2446577D00A5E659 /* LZWParser.m */; };
+		220A719D2446579000A5E659 /* LZWWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 220A719C2446579000A5E659 /* LZWWriter.h */; };
+		220A719F2446579B00A5E659 /* LZWWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A719E2446579B00A5E659 /* LZWWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220A71812446565A00A5E659 /* LZWCompressor_NSString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZWCompressor_NSString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220A71842446565A00A5E659 /* LZWCompressor_NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZWCompressor_NSString.h; sourceTree = "<group>"; };
+		220A71852446565A00A5E659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A718C244656A500A5E659 /* LZWEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZWEncoder.h; path = ../../../../LZWTester/LZWTester/LZWEncoder.h; sourceTree = "<group>"; };
+		220A718E2446570500A5E659 /* LZWEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZWEncoder.m; path = ../../../../LZWTester/LZWTester/LZWEncoder.m; sourceTree = "<group>"; };
+		220A71902446571700A5E659 /* LZWDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZWDecoder.h; path = ../../../../LZWTester/LZWTester/LZWDecoder.h; sourceTree = "<group>"; };
+		220A71922446572100A5E659 /* LZWDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZWDecoder.m; path = ../../../../LZWTester/LZWTester/LZWDecoder.m; sourceTree = "<group>"; };
+		220A71942446574B00A5E659 /* LZWTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZWTrie.h; path = ../../../../LZWTester/LZWTester/LZWTrie.h; sourceTree = "<group>"; };
+		220A71962446575200A5E659 /* LZWTrie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZWTrie.m; path = ../../../../LZWTester/LZWTester/LZWTrie.m; sourceTree = "<group>"; };
+		220A71982446576700A5E659 /* LZWParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZWParser.h; path = ../../../../LZWTester/LZWTester/LZWParser.h; sourceTree = "<group>"; };
+		220A719A2446577D00A5E659 /* LZWParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZWParser.m; path = ../../../../LZWTester/LZWTester/LZWParser.m; sourceTree = "<group>"; };
+		220A719C2446579000A5E659 /* LZWWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZWWriter.h; path = ../../../../LZWTester/LZWTester/LZWWriter.h; sourceTree = "<group>"; };
+		220A719E2446579B00A5E659 /* LZWWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LZWWriter.m; path = ../../../../LZWTester/LZWTester/LZWWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220A717E2446565A00A5E659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220A71772446565A00A5E659 = {
+			isa = PBXGroup;
+			children = (
+				220A71832446565A00A5E659 /* LZWCompressor-NSString */,
+				220A71822446565A00A5E659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220A71822446565A00A5E659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220A71812446565A00A5E659 /* LZWCompressor_NSString.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220A71832446565A00A5E659 /* LZWCompressor-NSString */ = {
+			isa = PBXGroup;
+			children = (
+				220A71842446565A00A5E659 /* LZWCompressor_NSString.h */,
+				220A718E2446570500A5E659 /* LZWEncoder.m */,
+				220A718C244656A500A5E659 /* LZWEncoder.h */,
+				220A71902446571700A5E659 /* LZWDecoder.h */,
+				220A71922446572100A5E659 /* LZWDecoder.m */,
+				220A71942446574B00A5E659 /* LZWTrie.h */,
+				220A71962446575200A5E659 /* LZWTrie.m */,
+				220A71982446576700A5E659 /* LZWParser.h */,
+				220A719A2446577D00A5E659 /* LZWParser.m */,
+				220A719C2446579000A5E659 /* LZWWriter.h */,
+				220A719E2446579B00A5E659 /* LZWWriter.m */,
+				220A71852446565A00A5E659 /* Info.plist */,
+			);
+			path = "LZWCompressor-NSString";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		220A717C2446565A00A5E659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A71952446574B00A5E659 /* LZWTrie.h in Headers */,
+				220A719D2446579000A5E659 /* LZWWriter.h in Headers */,
+				220A71992446576700A5E659 /* LZWParser.h in Headers */,
+				220A71912446571700A5E659 /* LZWDecoder.h in Headers */,
+				220A71862446565A00A5E659 /* LZWCompressor_NSString.h in Headers */,
+				220A718D244656A500A5E659 /* LZWEncoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		220A71802446565A00A5E659 /* LZWCompressor-NSString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220A71892446565A00A5E659 /* Build configuration list for PBXNativeTarget "LZWCompressor-NSString" */;
+			buildPhases = (
+				220A717C2446565A00A5E659 /* Headers */,
+				220A717D2446565A00A5E659 /* Sources */,
+				220A717E2446565A00A5E659 /* Frameworks */,
+				220A717F2446565A00A5E659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LZWCompressor-NSString";
+			productName = "LZWCompressor-NSString";
+			productReference = 220A71812446565A00A5E659 /* LZWCompressor_NSString.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220A71782446565A00A5E659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shah Samiur Rahman";
+				TargetAttributes = {
+					220A71802446565A00A5E659 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 220A717B2446565A00A5E659 /* Build configuration list for PBXProject "LZWCompressor-NSString" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220A71772446565A00A5E659;
+			productRefGroup = 220A71822446565A00A5E659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220A71802446565A00A5E659 /* LZWCompressor-NSString */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220A717F2446565A00A5E659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220A717D2446565A00A5E659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220A719B2446577D00A5E659 /* LZWParser.m in Sources */,
+				220A71972446575200A5E659 /* LZWTrie.m in Sources */,
+				220A71932446572100A5E659 /* LZWDecoder.m in Sources */,
+				220A718F2446570500A5E659 /* LZWEncoder.m in Sources */,
+				220A719F2446579B00A5E659 /* LZWWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		220A71872446565A00A5E659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		220A71882446565A00A5E659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		220A718A2446565A00A5E659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LZWCompressor-NSString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZWCompressor-NSString";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		220A718B2446565A00A5E659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LZWCompressor-NSString/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZWCompressor-NSString";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220A717B2446565A00A5E659 /* Build configuration list for PBXProject "LZWCompressor-NSString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220A71872446565A00A5E659 /* Debug */,
+				220A71882446565A00A5E659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220A71892446565A00A5E659 /* Build configuration list for PBXNativeTarget "LZWCompressor-NSString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220A718A2446565A00A5E659 /* Debug */,
+				220A718B2446565A00A5E659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220A71782446565A00A5E659 /* Project object */;
+}
